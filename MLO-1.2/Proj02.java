@@ -1,3 +1,4 @@
+
 class Proj02 {
     public static void main(String[] args) {
         System.out.println("I certify that this program is my own work");
@@ -5,9 +6,9 @@ class Proj02 {
         System.out.println("to share my solution with others.");
         System.out.println("Yolanda Gunter");
 
-        int num1, num2, num3, num4, result;
+int num1, num2, num3, num4, result;
 
-        if (args.length >= 4) {
+        for (args.length >= 4) {
             num1 = Integer.parseInt(args[0]);
             num2 = Integer.parseInt(args[1]);
             num3 = Integer.parseInt(args[2]);
@@ -21,6 +22,9 @@ class Proj02 {
             result = num1 + num2 + num3 + num4;
 
             System.out.println(result);
+        } else {
+            System.out.println("Error: Please provide exactly 4 integer arguments.");
         }
+
     }// end method
 }// end class
