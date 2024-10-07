@@ -4,5 +4,23 @@ class Proj02 {
         System.out.println("and is not the work of others. I agree not");
         System.out.println("to share my solution with others.");
         System.out.println("Yolanda Gunter");
+
+        int num1, num2, num3, num4, result;
+
+        if (args.length >= 4) {
+            num1 = Integer.parseInt(args[0]);
+            num2 = Integer.parseInt(args[1]);
+            num3 = Integer.parseInt(args[2]);
+            num4 = Integer.parseInt(args[3]);
+
+            System.out.println(num1);
+            System.out.println(num2);
+            System.out.println(num3);
+            System.out.println(num4);
+
+            result = num1 + num2 + num3 + num4;
+
+            System.out.println(result);
+        }
     }// end method
 }// end class
