@@ -4,6 +4,5 @@ class Proj01 {
         System.out.println("and is not the work of others. I agree not");
         System.out.println("to share my solution with others.");
         System.out.println("Yolanda Gunter");
-        System.out.println("Hello World");
     }// end method
 }// end class
