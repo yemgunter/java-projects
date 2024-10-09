@@ -1,30 +1,30 @@
+public class Proj02 {
 
-class Proj02 {
+    private int sum;
+
+    public Proj02(String[] args) {
+
+        this.sum = 0;
+
+        for (String arg : args) {
+            int num = Integer.parseInt(arg);
+            System.out.println(num);
+            this.sum += num;
+        } // end processing of user input
+    }// end constructor
+
+    public void displaySum() {
+        System.out.println(this.sum);
+    }// end display of sum
+
     public static void main(String[] args) {
         System.out.println("I certify that this program is my own work");
         System.out.println("and is not the work of others. I agree not");
         System.out.println("to share my solution with others.");
         System.out.println("Yolanda Gunter");
 
-int num1, num2, num3, num4, result;
+        Proj02 proj = new Proj02(args);
 
-        for (args.length >= 4) {
-            num1 = Integer.parseInt(args[0]);
-            num2 = Integer.parseInt(args[1]);
-            num3 = Integer.parseInt(args[2]);
-            num4 = Integer.parseInt(args[3]);
-
-            System.out.println(num1);
-            System.out.println(num2);
-            System.out.println(num3);
-            System.out.println(num4);
-
-            result = num1 + num2 + num3 + num4;
-
-            System.out.println(result);
-        } else {
-            System.out.println("Error: Please provide exactly 4 integer arguments.");
-        }
-
-    }// end method
+        proj.displaySum();
+    }// end main controlling method
 }// end class
