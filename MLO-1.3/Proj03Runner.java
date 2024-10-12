@@ -11,6 +11,8 @@ class Proj03Runner{
       "to share my solution with others.\n" +
       "Yolanda Gunter \n");
 
+
+
     byte myVar = (byte) valIn;//access and store valIn as type byte
     System.out.println(myVar);//print it
     myVar = ++myVar;//increment it
