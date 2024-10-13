@@ -11,7 +11,7 @@ class Proj03Runner {
 
     byte myVar = (byte) valIn;// access and store valIn as type byte
     System.out.println(myVar);// print it
-    myVar = --myVar;// decrement it
+    myVar = ++myVar;// increment it
     return myVar;// return it
   }// end run
 
