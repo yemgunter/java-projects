@@ -39,15 +39,16 @@ class Proj04Runner {
     System.out.println("Begin loop at index = 0");
     System.out.println("End loop at index = " + (arrayLength - 1));
 
-    for (int 1 = 0; i < arrayLength; i++) {
+    for (int i = 0; i < arrayLength; i++) {
       sum += byteArray[i];
     }
 
-    System.out.println("Sum of all elements = " + sum);
+    System.out.println("The sum is " + sum);
 
-    double avg = 9999;
+    double avg = sum / arrayLength;
     // Insert code to compute and display the average of all
     // the values in the array.
+    System.out.println("The average is " + avg);
 
     return avg;
 
