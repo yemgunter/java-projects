@@ -3,40 +3,46 @@ This is skeleton code for Proj04. It will compile and
 run, but it won't meet the assignment specifications.
 *****************************************************/
 
-class Proj04Runner{
+class Proj04Runner {
 
-  static double run(byte[] byteArray){
-    //Print a required certification on the 
+  static double run(byte[] byteArray) {
+    // Print a required certification on the
     // command-line screen.
     System.out.println(
-      "I certify that this program is my own work \n"+
-      "and is not the work of others. I agree not \n" +
-      "to share my solution with others.\n" +
-      "Yolanda Gunter\n");
+        "I certify that this program is my own work \n" +
+            "and is not the work of others. I agree not \n" +
+            "to share my solution with others.\n" +
+            "Yolanda Gunter\n");
 
-    //Insert code to get and display the length of the array
+    // Insert code to get and display the length of the array
+    int arrayLength = byteArray.length;
+    System.out.println("Array length = " + arrayLength);
 
-
-    //Insert code to get and display the value in the 
+    // Insert code to get and display the value in the
     // last element in the array.
+    int lastElement_val = byteArray[arrayLength - 1];
+    System.out.println("Value in last element = " + lastElement_val);
 
-    //Insert code to determine and display whether the
+    // Insert code to determine and display whether the
     // last element in the array is odd or even.
-    
+    if (lastElement_val % 2 == 0) {
+      System.out.println("The Value is the last element is Even");
+    } else {
+      System.out.println("The value in the last element is Odd");
+    }
 
-    double sum = 0;    
-    //Insert code to compute and display the sum of all the
+    double sum = 0;
+    // Insert code to compute and display the sum of all the
     // values stored in the array as type double. Include
     // code that will display the beginning and ending
     // indices.
 
-    
     double avg = 9999;
-    //Insert code to compute and display the average of all
+    // Insert code to compute and display the average of all
     // the values in the array.
 
     return avg;
 
-  }//end run method
+  }// end run method
 
-}//end class Proj04Runner
+}// end class Proj04Runner
