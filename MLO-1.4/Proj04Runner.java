@@ -36,6 +36,14 @@ class Proj04Runner {
     // values stored in the array as type double. Include
     // code that will display the beginning and ending
     // indices.
+    System.out.println("Begin loop at index = 0");
+    System.out.println("End loop at index = " + (arrayLength - 1));
+
+    for (int 1 = 0; i < arrayLength; i++) {
+      sum += byteArray[i];
+    }
+
+    System.out.println("Sum of all elements = " + sum);
 
     double avg = 9999;
     // Insert code to compute and display the average of all
