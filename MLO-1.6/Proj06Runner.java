@@ -3,7 +3,7 @@
 
 class Proj06Runner {
 
-  String var = "Yolanda Gunter";
+  static String var = "Yolanda Gunter"; // replaced my name
 
   Proj06Runner() {
     System.out.println(
