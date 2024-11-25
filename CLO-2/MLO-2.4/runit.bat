@@ -3,7 +3,7 @@ cls
 rem path="C:\Users\yolan\OneDrive\Documents\GitHub\java-projects";%path%
 del *.class
 
-javac -cp .; Proj08.java
-java -cp .; Proj08
+javac -cp .; Proj09.java
+java -cp .; Proj09
 
 pause
