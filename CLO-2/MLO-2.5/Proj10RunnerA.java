@@ -3,6 +3,8 @@ public class Proj10RunnerA implements Proj10X {
 
     public Proj10RunnerA(int data) {
         this.data = data; // Save data for later use
+
+        printCertification(); // Call the default method
     }
 
     @Override
@@ -17,6 +19,7 @@ public class Proj10RunnerA implements Proj10X {
 
     @Override
     public String toString() {
-        return "Proj10RunnerA, Asher YourLastName"; // Include name
+        return String.valueOf(data + 5); // Return randomData + 5
     }
+
 }
