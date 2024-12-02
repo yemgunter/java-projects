@@ -17,6 +17,6 @@ public class Proj10RunnerB implements Proj10X {
 
     @Override
     public String toString() {
-        return "Proj10RunnerB, Asher YourLastName"; // Include name
+        return String.valueOf(data + 5); // Return randomData + 5
     }
 }
