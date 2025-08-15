@@ -1,0 +1,27 @@
+Proj02 Notes
+
+https://programmedlessons.org/Java9/index.html
+
+https://www.codiva.io/p/ca9be6c5-2edf-4479-86b8-9fcd86f9eede
+
+Jb0180
+
+The args.length property can be used by the code in the program to determine the number of arguments actually entered by the user.
+
+If the length property is not equal to zero, the first string in the array corresponds to the first argument entered on the command line.
+
+Jb0190
+
+System.out
+
+accesses the class variable named out in the Java class named System.
+
+The out variable in the System class refers to (points to) an instance of the PrintStream class (a PrintStream object), which is automatically instantiated when the System class is loaded into the application.
+
+The println method
+The PrintStream class has several overloaded versions of instance methods named println that causes its argument to be displayed on the standard output device when it is called. 
+
+System.out.println("Hello World");
+
+SUMMARY: This statement calls the println method of an object instantiated from the PrintStream class, which is referred to (pointed to) by the variable named out, which is a class variable of the System class.
+
